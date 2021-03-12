@@ -1,0 +1,596 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+}
+a{
+    text-decoration: inherit;
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url("indicorp/bg-cover.svg");
+    background-size: cover;
+}
+.header-blog{
+    width: 1110px;
+    margin: auto;
+    padding-top: 35px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.indicorp{
+    width: 105px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #252B42;
+}
+.head-nav{
+    width: 280px;
+}
+.head-nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #737373;
+}
+.toggler{
+    width: 495px;
+    text-align: right;
+}
+.header-center{
+    width: 510px;
+    margin: 115px 0 80px;
+}
+.bussines-title{
+    font-size:58px;
+    font-weight: 800;
+    color: #252B42;
+}
+.bussines-subtitle{
+    font-size: 20px;
+    font-weight: 500;
+    color: #737373;
+    padding: 35px 0;
+}
+.buttons{
+    width: 345px;
+    display: flex;
+    justify-content: space-between;
+}
+.bussines-btn1{
+    width: 185px;
+    height: 50px;
+    background-color: #FFA62B;
+    border-radius: 35px;
+}
+.bussines-btn1 p{
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    font-size:14px;
+    font-weight:700;
+}
+.bussines-btn2{
+    width: 150px;
+    height: 50px;
+    border: 1px solid #00A0C1;
+    border-radius: 35px;
+}
+.bussines-btn2 p{
+    color: #00A0C1;
+    line-height: 50px;
+    text-align: center;
+    font-size:14px;
+    font-weight:700;
+}
+.header-cards{
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+}
+.card-1{
+    width: 330px;
+    height: 210px;
+    padding: 40px 0 35px 40px;
+    background-color: white;
+    box-shadow:#dcdada 0 0 20px 3px;
+}
+.marketing-title{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px 0 10px;
+    color: #252B42;
+}
+.marketing-subtitle{
+    font-size: 14px;
+    font-weight: 500;
+    color: #737373;
+    width: 215px;
+}
+.card-3{
+    width: 330px;
+    height: 210px;
+    padding: 40px 0 35px 40px;
+    background-color: #00A0C1;
+}
+.marketing-title-white{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px 0 10px;
+    color: #fff;
+}
+.marketing-subtitle-white{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    width: 215px;
+}
+.cta{
+    background-color: #FAFAFA;
+}
+.features{
+    width: 1110px;
+    margin: auto;
+    padding-top: 130px;
+
+}
+.features-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #252B42;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.features-subtitle{
+    width: 510px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #737373;
+    margin: auto;
+    text-align: center;
+}
+.features-title2{
+    width: 460px;
+    margin: auto;
+    font-size: 40px;
+    font-weight: 700;
+    color: #252B42;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.features-subtitle2{
+    width: 470px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #737373;
+    margin: auto;
+    text-align: center;
+}
+.features-cards{
+    width: 1050px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 80px;
+}
+.features-card{
+    width: 230px;
+    background-color: white;
+    padding: 30px 0;
+}
+.features-card2{
+    width: 230px;
+    background-color: white;
+    padding: 40px 0 30px 0;
+}
+.card-logo{
+    text-align: center;
+}
+.followers{
+    font-size: 40px;
+    font-weight: 700;
+    color: #252B42;
+    text-align: center;
+    padding: 10px 0;
+}
+.followers2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #252B42;
+    text-align: center;
+    padding: 20px 0 10px;
+}
+.done{
+    font-size: 16px;
+    font-weight: 700;
+    color: #737373;
+    text-align: center;
+}
+.container{
+    background-color: #FAFAFA;
+}
+.content{
+    width: 1110px;
+    margin: auto;
+    padding-top: 125px;
+}
+.practica-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.practica-card{
+    width: 230px;
+    background-color: white;
+    margin-top: 45px;
+}
+.practica-txt{
+    padding: 30px;
+}
+.practica-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #252B42;
+}
+.practica-subtitle{
+    font-size: 14px;
+    font-weight: 500;
+    color: #737373;
+    padding-top: 15px;
+}
+.wrapper{
+    width: 1110px;
+    margin: auto;
+    padding: 100px 0;
+}
+.wrapper-blog{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.wrapper-slide1{
+    width: 600px;
+    height: 440px;
+    background-image: url("indicorp/cover.svg");
+    background-size: cover;
+    position: relative;
+}
+.btn-play{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #00A0C1;
+    line-height: 125px;
+    text-align: center;
+    position: absolute;
+    top: 170px;
+    left: 250px;
+}
+.wrapper-slide2{
+    width: 330px;
+}
+.wrapper-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #252B42;
+    padding:25px 0 10px;
+
+}
+.wrapper-subtitle{
+    font-size: 14px;
+    font-weight: 500;
+    color: #737373;
+    padding-bottom: 50px;
+}
+.wrapper-logo-desc{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 30px;
+
+}
+.wrapper-desc{
+    padding-left: 20px;
+}
+.wrapper-desc-title{
+    font-size:16px;
+    font-weight:700;
+    color: #252B42;
+}
+.wrapper-desc-subtitle{
+    font-size:14px;
+    font-weight:600;
+    color: #737373;
+}
+.row{
+    background-color: #FAFAFA;
+}
+.row-center{
+    width: 990px;
+    margin: auto;
+    padding-top: 65px;
+}
+.partners{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.partner-img{
+    width: 100px;
+}
+.row-search{
+    width: 990px;
+    height: 125px;
+    margin: auto;
+    padding: 0 50px;
+    background-color: #16697A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 60px;
+}
+.search-txt{
+    width: 260px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+.block-search{
+    width: 450px;
+    height: 60px;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+.email{
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 14px;
+}
+.subscribe{
+    width: 115px;
+    height: 60px;
+    background-color: #FFA62B;
+    display:flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.subscribe p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.back{
+    height: 80px;
+    background-color: #252B42;
+}
+.inside{
+    background-color: #F3F3F3;
+}
+.inside-center{
+    width: 990px;
+    margin: auto;
+    padding: 80px 0 150px 0;
+}
+.inside-cards{
+    display: flex;
+    margin-top: 110px;
+}
+.inside-card{
+    background-color: white;
+    width: 330px;
+    height: 330px;
+    padding: 50px;
+}
+.inside-logo{
+    text-align: center;
+}
+.example-blue{
+    text-align: center;
+    color: #252B42;
+    padding-top: 15px;
+}
+.ple-blue{
+    text-align: center;
+    color: #252B42;
+}
+.support{
+    font-size: 24px;
+    font-weight: 700;
+    color: #252B42;
+    padding: 15px 0;
+    text-align: center;
+}
+.inside-btn{
+    width: 220px;
+    height: 40px;
+    border: 1px solid #FFA62B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.inside-btn p{
+    font-size: 14px;
+    font-size: 600;
+    color:#FFA62B;
+   
+}
+.inside-card-blue{
+    background-color: #252B42;
+    width: 330px;
+    height: 390px;
+    padding: 80px 0;
+    position: relative;
+    bottom: 30px;
+
+}
+.example-white{
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+.ple-white{
+    text-align: center;
+    color: white;
+}
+.support-white{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+
+    padding: 15px 0;
+    text-align: center;
+}
+.inside-btn-white{
+    width: 220px;
+    height: 40px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: auto;
+
+}
+.inside-btn-white p{
+    font-size: 14px;
+    font-size: 600;
+    color: white;
+   
+}
+.wrap{
+    width: 1050px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.wrap-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #252B42;
+}
+.wrap-subtitle{
+    font-size: 14px;
+    font-weight: 500;
+    color: #737373;
+}
+.wrap-btn{
+    width: 160px;
+    height: 60px;
+    background-color: #FFA62B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px
+}
+.wrap p{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+
+}
+footer{
+    background-color: #16697A;
+}
+.footer-center{
+    width: 1050px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.footer-desc{
+    width: 150px;
+}
+.footer-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 50px 0 20px;
+}
+footer li{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.footer-desc-end{
+    width: 320px;
+}
+.footer-number{
+    display: flex;
+    align-items: center;
+}
+.number{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding: 0 0 15px 10px;
+}
+.footer-blog-conclusion{
+    background-color: #FAFAFA;
+    padding: 25px 0;
+
+}
+.footer-bottom{
+    width: 1050px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+}
+.conclusion{
+    width: 600px;
+    color: #737373;
+    font-size: 14px;
+    font-weight: 600;
+}
+.conclusion-social{
+    width: 235px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
