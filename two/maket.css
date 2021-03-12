@@ -1,0 +1,392 @@
+*{
+   box-sizing: border-box; 
+}
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+body{   
+    padding: 0;
+    font-family: 'Gilroy';
+
+}
+
+header{
+    background-color: #FAFAFA;
+    width: 1440px;
+    max-width: 100%;
+    margin: auto;
+    padding: 50px 40px;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    margin: 0;
+    padding: 0;
+    width: 330px;
+    list-style-type: none;
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.gift-finder{
+    border: 1px solid  #F7941E;
+    color: #F7941E;
+    width: 150px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+main{
+    width: 1440px;
+    max-width: 100%;
+    margin: auto;
+}
+.slide{
+    display: flex;
+    
+    background: #F1F1F2;
+    align-items: center;
+   
+}
+.content{
+    width:50%;
+    align-items: center; 
+}
+
+.slide-info{
+    width: 430px;
+    margin: auto;
+}
+.slide-info .subtitle{
+    padding: 40px 0;
+}
+.slide img{
+    display: block;
+}
+.title h1{
+    font-size: 56px;
+   
+}
+.content p{
+    font-size: 20px;
+   
+}
+.slide-button{
+    background-color:#F7941E;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 25px;
+    text-transform: uppercase;
+    width: 200px;
+    text-align: center;
+}
+.content h3{
+    font-size: 32px;
+}
+.future-split{
+    width: 440px;
+    margin: auto;
+}
+.future-split .learn-more{
+    border: 1px solid  #F7941E;
+    color: #F7941E;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+.row{
+    width: 1440px;
+    max-width: 100%;
+}
+.post-title{
+    font-size: 32px;
+    text-align: center;
+    margin: 100px 0 25px;
+}
+.post-subtitle{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+.blogs{
+    width: 1440px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.col{
+    width: 270px;
+    background-color: #f1f1f1;
+    padding-bottom: 25px;
+    transition: .3s;
+}
+.col:hover{
+    box-shadow:  10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.birthday{
+    font-size: 20px;
+    line-height: 24px;
+    padding: 25px 25px 75px;
+}
+.more{
+    font-size: 14px;
+    margin: 0 25px;
+}
+.cta{
+    background-color: #F7941E;
+    width: 1440px;
+    max-width: 100%;
+    padding: 80px 0;
+    margin-top: 140px;
+}
+.wrapper{
+    width: 1440px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrap-title{
+    font-size: 32px;
+}
+.wrap-subtitle{
+    font-size: 32px;
+}
+.buttons{
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.button-black{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    line-height: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+.button-orange{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #F7941E;
+    color: black;
+    text-transform: uppercase;
+    border: 1px solid;
+    line-height: 50px;
+    text-align: center;
+}
+.restangle{
+    width: 1440px;
+    max-width: 100%;
+}
+.aside{
+    width: 1170px;
+    max-width: 100%;
+    background-color: black;
+    display: flex;
+    margin: auto;
+}
+.block-img img{
+    display: block;
+}
+.desc{
+    color: white;
+    width: 770px;
+    height: 370px;
+    margin: auto;
+    
+}
+.desc-items{
+    width: 490px;
+    height: 225px;
+    margin: auto;
+}
+.john-doe{
+    font-size: 14px;
+    align-items: center;
+    padding-top: 60px;
+}
+.desc-text{
+    font-size: 48px;
+    padding-top: 25px;
+   
+}
+.read-more{
+    font-size: 18px;
+    align-items: center;
+}
+.group{
+    width: 1170px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.group-item{
+    width: 570px;
+    margin-top: 40px;
+    padding: 50px;
+    transition: .3s;
+    
+}
+.group-item:hover{
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.5);
+}
+.group-item h2{
+    font-size: 24px;
+}
+.group-item p{
+    font-size: 18px;
+    padding: 15px 0;
+}
+.group-item a{
+    font-size: 14px;
+}
+footer{
+    width: 1440px;
+    max-width: 100%;
+    margin: auto;
+    height: 410px;
+    margin-top: 80px;
+}
+footer ul{
+    width: 600px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 115px 0 50px;
+
+
+}
+footer li{
+    font-weight: bold;
+}
+.line{
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+    border: 1px solid black;
+}
+.networks{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 70px;
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+    margin: auto;
+}
+.copy p{
+    font-size: 14px;
+    padding-bottom: 35px;
+}
+@media only screen and (max-width:500px){
+    .header-wrap, .nav, .slide, .blogs, .wrapper, 
+    .buttons, .aside, .group, footer ul,
+    .networks  {
+        flex-wrap: wrap;
+      
+    }
+   
+    .logo{
+        margin: auto;
+    }
+    .nav{
+        max-width: 90%;
+        justify-content: space-between;
+    }
+    .gift-finder{
+        margin: auto;
+        margin-top: 5px;
+    }
+    .content{
+        max-width: 90%;
+        width: max-content;
+        margin-bottom: 5px;
+    }
+    .slide-info, .future-split{
+        padding: 10px 0;
+        max-width: 90%;
+        margin: auto;
+    }
+    .title, .subtitle{
+        text-align: center;
+        word-break: break-word;
+    }
+    .slide-button, .learn-more{
+        max-width: 90%;
+        margin: auto;
+       
+    }
+    .slide-img img, .block-img img{
+        
+        max-width: 100%;
+    }
+    .col{
+        margin-bottom: 10px;
+    }
+    .button-black, .button-orange{
+        margin: auto;
+        margin-top: 10px;
+    }
+    .future-split h3{
+        text-align: center;
+    }
+    .post-title,.post-subtitle, .desc{
+        max-width: 100%;
+    }
+    .desc-items{
+        max-width: 100%;
+        margin: auto;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
