@@ -20,6 +20,7 @@ header{
 }
 .header-blog{
     width: 1110px;
+    max-width: 100%;
     margin: auto;
     padding-top: 35px;
 }
@@ -47,10 +48,12 @@ header{
 }
 .toggler{
     width: 495px;
+    max-width: 100%;
     text-align: right;
 }
 .header-center{
     width: 510px;
+    max-width: 100%;
     margin: 115px 0 80px;
 }
 .bussines-title{
@@ -97,6 +100,7 @@ header{
 }
 .header-cards{
     width: 1050px;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -123,6 +127,7 @@ header{
 }
 .card-3{
     width: 330px;
+    max-width: 100%;
     height: 210px;
     padding: 40px 0 35px 40px;
     background-color: #00A0C1;
@@ -144,6 +149,7 @@ header{
 }
 .features{
     width: 1110px;
+    max-width: 100%;
     margin: auto;
     padding-top: 130px;
 
@@ -157,6 +163,7 @@ header{
 }
 .features-subtitle{
     width: 510px;
+    max-width: 100%;
     font-size: 14px;
     font-weight: 500;
     color: #737373;
@@ -182,6 +189,7 @@ header{
 }
 .features-cards{
     width: 1050px;
+    max-width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -225,6 +233,7 @@ header{
 }
 .content{
     width: 1110px;
+    max-width: 100%;
     margin: auto;
     padding-top: 125px;
 }
@@ -253,6 +262,7 @@ header{
 }
 .wrapper{
     width: 1110px;
+    max-width: 100%;
     margin: auto;
     padding: 100px 0;
 }
@@ -263,6 +273,7 @@ header{
 }
 .wrapper-slide1{
     width: 600px;
+    max-width: 95%;
     height: 440px;
     background-image: url("indicorp/cover.svg");
     background-size: cover;
@@ -273,7 +284,7 @@ header{
     height: 100px;
     border-radius: 50%;
     background-color: #00A0C1;
-    line-height: 125px;
+    line-height: 120px;
     text-align: center;
     position: absolute;
     top: 170px;
@@ -281,6 +292,7 @@ header{
 }
 .wrapper-slide2{
     width: 330px;
+    max-width: 100%;
 }
 .wrapper-title{
     font-size: 40px;
@@ -319,6 +331,7 @@ header{
 }
 .row-center{
     width: 990px;
+    max-width: 95%;
     margin: auto;
     padding-top: 65px;
 }
@@ -332,6 +345,7 @@ header{
 }
 .row-search{
     width: 990px;
+    max-width: 100%;
     height: 125px;
     margin: auto;
     padding: 0 50px;
@@ -350,6 +364,7 @@ header{
 }
 .block-search{
     width: 450px;
+    max-width: 100%;
     height: 60px;
     background-color: #E5E5E5;
     display: flex;
@@ -386,6 +401,7 @@ header{
 }
 .inside-center{
     width: 990px;
+    max-width: 95%;
     margin: auto;
     padding: 80px 0 150px 0;
 }
@@ -429,7 +445,7 @@ header{
 }
 .inside-btn p{
     font-size: 14px;
-    font-size: 600;
+    font-weight: 600;
     color:#FFA62B;
    
 }
@@ -472,12 +488,13 @@ header{
 }
 .inside-btn-white p{
     font-size: 14px;
-    font-size: 600;
+    font-weight: 600;
     color: white;
    
 }
 .wrap{
     width: 1050px;
+    max-width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -513,6 +530,7 @@ footer{
 }
 .footer-center{
     width: 1050px;
+    max-width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -553,6 +571,7 @@ footer li{
 }
 .footer-bottom{
     width: 1050px;
+    max-width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -560,6 +579,7 @@ footer li{
 }
 .conclusion{
     width: 600px;
+    max-width: 100%;
     color: #737373;
     font-size: 14px;
     font-weight: 600;
@@ -569,6 +589,98 @@ footer li{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+@media only screen and (max-width: 500px){
+    .header-top, .head-nav ul, .buttons,
+    .header-cards, .features-cards,
+    .practica-cards, .wrapper-blog,
+    .wrapper-logo-desc, .partners,
+    .row-search, .block-search,
+    .inside-cards, .inside-btn,
+    .inside-btn-white, .wrap,
+    .wrap-btn, .footer-center,
+     .footer-bottom,
+    .conclusion-social{
+        flex-wrap: wrap;
+    }
+    .bussines-title, .bussines-subtitle,
+    .wrapper-title, .wrapper-subtitle,
+    .footer-bottom{
+        text-align: center;
+    }
+    .buttons, .conclusion-social,
+    .indicorp{
+        margin: auto;
+    }
+    .header-blog{
+        padding-top: 5px;
+    }
+    .head-nav{
+        margin-top: 20px;
+    }
+    .toggler{
+        position: relative;
+        bottom: 20px;
+    }
+    .header-cards,.features-cards,
+    .practica-cards{
+        justify-content: center;
+    }
+    .card-1{
+        margin-bottom: 10px;
+    }
+    .features-card, .features-card2{
+        margin-bottom: 10px;
+    }
+    .features-title2, .features-subtitle, .features-subtitle2{
+        max-width: 100%;
+    }
+    .wrapper-slide1, .wrapper-slide2{
+        margin: auto;
+    }
+    .wrapper-logo,.inside-btn {
+        margin: auto;
+    }
+    .btn-play{
+        position: absolute;
+        top: 160px;
+        left: 145px;
+    }
+    .wrapper{
+        padding-top: 100px;
+    }
+    .wrapper-blog{
+        padding: 50px 0;
+    }
+    .row-search{
+        padding-bottom: 5px;
+    }
+    .inside-cards{
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .inside-card-blue{
+        margin-top: 60px;
+    }
+    .inside-card{
+        padding: 50px 0;
+    }
+    .wrap-desc{
+        text-align: center;
+    }
+    .wrap-btn{
+        margin: auto;
+        margin-top: 25px;
+    }
+    .footer-center{
+        justify-content: center;
+    }
+    .footer-desc{
+        margin-left: 30px;
+    }
+    .conclusion{
+        padding-bottom: 10px;
+    }
 }
 
 
