@@ -316,9 +316,13 @@ footer li{
     .logo{
         margin: auto;
     }
-    .nav{
-        max-width: 90%;
-        justify-content: space-between;
+    nav{
+        max-width: 100%;
+        justify-content: space-around;
+    }
+    nav ul{
+        max-width: 100%;
+        margin: auto;
     }
     .gift-finder{
         margin: auto;
@@ -327,6 +331,7 @@ footer li{
     .content{
         max-width: 90%;
         width: max-content;
+        margin: auto;
         margin-bottom: 5px;
     }
     .slide-info, .future-split{
