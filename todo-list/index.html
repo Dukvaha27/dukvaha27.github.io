@@ -1,0 +1,143 @@
+    <!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .blog{
+            border: 1px solid black;
+            background-color: darkolivegreen;
+            color: khaki;
+            width: 175px;
+            margin-top: 5px;
+        }
+        .blog_item{
+            border-top: 1px dashed greenyellow;
+            display: flex;
+            justify-content: space-between;
+        }
+        .done{
+            background-color: black;
+            color: khaki;
+            opacity: .3;
+        }
+        .inp{
+            background-color: orange;
+            color: black;
+        }
+        .re-btn{
+            background-color: black;
+            color: white;
+        }
+        .btn{
+            background-color: lightblue;
+            color: grey;
+        }
+        .btn-del{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="ведите текст" id="input" class="inp">
+    <button id="btn" class="btn">Поиск</button>
+    <button id="re_btn" class="re-btn">Удалить отмеченные</button>
+
+    <div class="blog" id="blog">
+    </div>
+
+<script>
+    const inp = document.getElementById('input');
+
+    const btn = document.getElementById('btn');
+
+    const re_btn = document.getElementById('re_btn');
+
+    const blog = document.getElementById('blog');
+
+
+
+
+    btn.addEventListener('click', function (ev){
+
+        let blogItem = document.createElement('div');
+            blogItem.classList.add('blog_item');
+        const check = document.createElement('input');
+              check.type = 'checkbox';
+              check.classList.add('checks')
+
+        blog.prepend(blogItem);
+        blogItem.prepend(inp.value)
+
+        blogItem.prepend(check);
+
+        if (inp.value === ''){
+            alert('введите текст');
+            blogItem.remove()
+        }else {
+            inp.value = ''
+        }
+
+        let btn_del = document.createElement('button');
+            btn_del.prepend('delete');
+            btn_del.classList.add('btn-del')
+
+            blogItem.append(btn_del);
+
+        btn_del.addEventListener('click', function (ev){
+            ev.target.parentNode.remove()
+        })
+
+        check.addEventListener('click',function (ev){
+            ev.target.parentNode.classList.toggle('done');
+
+            let disable = ev.target.nextElementSibling.disabled;
+
+            if (disable){
+                ev.target.nextElementSibling.disabled = ''
+            }else {
+                ev.target.nextElementSibling.disabled = 'disabled'
+            }
+        })
+        re_btn.addEventListener('click',function (ev){
+            let remove = document.getElementsByClassName('done');
+
+            while (remove[0]){
+                remove[0].parentNode.removeChild(remove[0])
+            }
+        })
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
